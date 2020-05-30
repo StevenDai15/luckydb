@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="false" scanPeriod="60 seconds" debug="false">
+	<property name="LOG_HOME" value="logs"/>
+	<property name="appName" value="bengche-web"/>
+	<!-- 日志格式和颜色渲染 -->
+	<conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
+	<conversionRule conversionWord="wex"
+					converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter"/>
+	<conversionRule conversionWord="wEx"
+					converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter"/>
+
+	<!-- 彩色日志格式 -->
+	<property name="CONSOLE_LOG_PATTERN"
+			  value="${CONSOLE_LOG_PATTERN:-%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"/>
+
+
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>debug</level>
+		</filter>
+		<encoder>
+			<Pattern>${CONSOLE_LOG_PATTERN}</Pattern>
+			<!-- 设置字符集 -->
+			<charset>UTF-8</charset>
+		</encoder>
+	</appender>
+
+	<!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 -->
+	<appender name="appLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- 指定日志文件的名称 -->
+		<file>${LOG_HOME}/${appName}.log</file>
+		<!--
+        当发生滚动时，决定 RollingFileAppender 的行为，涉及文件移动和重命名
+        TimeBasedRollingPolicy： 最常用的滚动策略，它根据时间来制定滚动策略，既负责滚动也负责出发滚动。
+        -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!--
+            滚动时产生的文件的存放位置及文件名称 %d{yyyy-MM-dd}：按天进行日志滚动
+            %i：当文件大小超过maxFileSize时，按照i进行文件滚动
+            -->
+			<fileNamePattern>${LOG_HOME}/${appName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+			<!--
+            可选节点，控制保留的归档文件的最大数量，超出数量就删除旧文件。假设设置每天滚动，
+            且maxHistory是365，则只保存最近365天的文件，删除之前的旧文件。注意，删除旧文件是，
+            那些为了归档而创建的目录也会被删除。
+            -->
+			<MaxHistory>7</MaxHistory>
+			<!--
+            当日志文件超过maxFileSize指定的大小时，根据上面提到的%i进行日志文件滚动
+            注意此处配置SizeBasedTriggeringPolicy是无法实现按文件大小进行滚动的，必须配置timeBasedFileNamingAndTriggeringPolicy
+            -->
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>100MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<!-- 日志输出格式： -->
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%15.15t] - [%level] [%-40.40file{39}:%5line] - %msg%n</pattern>
+		</layout>
+	</appender>
+
+
+
+	<logger name="com.luckydb.dao" level="debug"/>
+	<logger name="org.springframework" level="info"/>
+	<logger name="com.mysql.jdbc" level="error"/>
+	<logger name="jdbc.audit" level="error"/>
+	<logger name="jdbc.sqlonly" level="error"/>
+	<logger name="jdbc.resultset" level="error"/>
+	<logger name="io.lettuce.core.protocol.RedisStateMachine" level="info"/>
+	<logger name="io.lettuce.core.protocol.CommandHandler" level="info"/>
+
+	<root level="info">
+		<appender-ref ref="stdout"/>
+		<appender-ref ref="appLogAppender"/>
+	</root>
+
+</configuration>

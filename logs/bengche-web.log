@@ -1,0 +1,59 @@
+2020-05-30 18:21:41.966 [  restartedMain] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 76722 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 18:21:41.969 [  restartedMain] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 18:21:42.006 [  restartedMain] - [INFO] [DeferredLog.java                        :  225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-30 18:21:42.466 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 18:21:42.467 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 18:21:42.481 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-05-30 18:21:42.563 [  restartedMain] - [WARN] [Logger.java                             :   44] - No MyBatis mapper was found in '[com.luckydb]' package. Please check your configuration.
+2020-05-30 18:21:42.708 [  restartedMain] - [WARN] [AbstractApplicationContext.java         :  558] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>
+2020-05-30 18:21:42.716 [  restartedMain] - [INFO] [tionEvaluationReportLoggingListener.java:  136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-30 18:21:42.719 [  restartedMain] - [ERROR] [LoggingFailureAnalysisReporter.java     :   40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: com.alibaba.druid.pool.DruidDataSource
+    Origin: class path resource [application-test.yml]:3:11
+    Reason: No converter found capable of converting from type [java.lang.String] to type [java.lang.Class<javax.sql.DataSource>]
+
+Action:
+
+Update your application's configuration
+
+2020-05-30 18:29:49.094 [  restartedMain] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 76735 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 18:29:49.097 [  restartedMain] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 18:29:49.130 [  restartedMain] - [INFO] [DeferredLog.java                        :  225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-30 18:29:49.638 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 18:29:49.640 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 18:29:49.661 [  restartedMain] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-05-30 18:29:49.755 [  restartedMain] - [WARN] [Logger.java                             :   44] - No MyBatis mapper was found in '[com.luckydb]' package. Please check your configuration.
+2020-05-30 18:29:49.924 [  restartedMain] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 18:29:50.318 [  restartedMain] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 18:29:51.030 [  restartedMain] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 18:29:51.168 [  restartedMain] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 18:29:51.185 [  restartedMain] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 18:29:51.185 [  restartedMain] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 18:29:51.186 [  restartedMain] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 18:29:51.187 [  restartedMain] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 18:29:51.187 [  restartedMain] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 18:29:51.187 [  restartedMain] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 18:29:51.188 [  restartedMain] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7e787fa0
+2020-05-30 18:29:51.221 [  restartedMain] - [WARN] [OptionalLiveReloadServer.java           :   61] - Unable to start LiveReload server
+2020-05-30 18:29:51.248 [  restartedMain] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 18:29:51.249 [  restartedMain] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 18:29:51.261 [  restartedMain] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.639 seconds (JVM running for 3.356)
