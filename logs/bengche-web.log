@@ -57,3 +57,482 @@ Update your application's configuration
 2020-05-30 18:29:51.248 [  restartedMain] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
 2020-05-30 18:29:51.249 [  restartedMain] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
 2020-05-30 18:29:51.261 [  restartedMain] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.639 seconds (JVM running for 3.356)
+2020-05-30 22:07:38.401 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:07:38.406 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 22:07:38.406 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 22:07:38.406 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:07:38.407 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 22:07:38.443 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 22:07:38.459 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 22:33:59.722 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78131 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 22:33:59.724 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 22:34:00.419 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 22:34:00.423 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 22:34:00.460 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-05-30 22:34:00.876 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 22:34:01.154 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 22:34:01.909 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 22:34:01.954 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 22:34:01.966 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 22:34:01.966 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 22:34:01.967 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 22:34:01.967 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 22:34:01.968 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 22:34:01.968 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 22:34:01.968 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@642f9a77
+2020-05-30 22:34:01.989 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 22:34:02.027 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 22:34:02.027 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 22:34:02.038 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.979 seconds (JVM running for 3.915)
+2020-05-30 22:39:55.947 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:39:55.949 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 22:39:55.949 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 22:39:55.949 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 22:39:55.950 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:39:55.950 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 22:39:55.983 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 22:39:55.991 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 22:44:45.547 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78210 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 22:44:45.550 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 22:44:46.140 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 22:44:46.144 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 22:44:46.175 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-05-30 22:44:46.554 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 22:44:46.810 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 22:44:47.560 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 22:44:47.607 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 22:44:47.618 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 22:44:47.618 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 22:44:47.618 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 22:44:47.619 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 22:44:47.619 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 22:44:47.619 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 22:44:47.620 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58f39564
+2020-05-30 22:44:47.642 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 22:44:47.678 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 22:44:47.678 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 22:44:47.691 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.715 seconds (JVM running for 3.384)
+2020-05-30 22:44:56.191 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:44:56.191 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 22:44:56.192 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 22:44:56.192 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 22:44:56.192 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:44:56.193 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 22:44:56.209 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 22:44:56.216 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 22:47:41.513 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78257 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 22:47:41.516 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 22:47:42.136 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 22:47:42.141 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 22:47:42.185 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-05-30 22:47:42.619 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 22:47:42.868 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 22:47:43.631 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 22:47:43.676 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 22:47:43.687 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 22:47:43.687 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 22:47:43.688 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 22:47:43.688 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 22:47:43.689 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 22:47:43.689 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 22:47:43.689 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@32130e61
+2020-05-30 22:47:43.712 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 22:47:43.747 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 22:47:43.747 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 22:47:43.759 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.908 seconds (JVM running for 3.628)
+2020-05-30 22:54:14.176 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:54:14.178 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 22:54:14.179 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 22:54:14.179 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 22:54:14.179 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:54:14.180 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 22:54:14.198 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 22:54:14.206 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 22:54:16.985 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78279 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 22:54:16.987 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 22:54:17.463 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 22:54:17.465 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 22:54:17.486 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-05-30 22:54:17.828 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 22:54:18.047 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 22:54:18.637 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 22:54:18.672 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 22:54:18.680 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 22:54:18.680 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 22:54:18.680 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 22:54:18.681 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 22:54:18.681 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 22:54:18.682 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 22:54:18.682 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@75d4a80f
+2020-05-30 22:54:18.699 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 22:54:18.731 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 22:54:18.731 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 22:54:18.743 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 2.192 seconds (JVM running for 2.836)
+2020-05-30 22:54:47.712 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:54:47.713 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 22:54:47.713 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 22:54:47.714 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 22:54:47.714 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 22:54:47.714 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 22:54:47.730 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 22:54:47.737 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 22:54:51.423 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78288 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 22:54:51.425 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 22:54:52.276 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 22:54:52.277 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 22:54:52.301 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-05-30 22:54:52.839 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 22:54:52.845 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 22:54:52.846 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 22:54:52.846 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 22:54:52.915 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 22:54:52.916 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1444 ms
+2020-05-30 22:54:53.038 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 22:54:53.323 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 22:54:53.702 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 22:54:53.792 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 22:54:54.200 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 22:54:54.232 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 22:54:54.240 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 22:54:54.240 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 22:54:54.241 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 22:54:54.241 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 22:54:54.241 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 22:54:54.242 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 22:54:54.242 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15d236fd
+2020-05-30 22:54:54.320 [           main] - [INFO] [UserDetailsServiceAutoConfiguration.java:   86] - 
+
+Using generated security password: f65bab95-1880-4dcd-ab83-e989341b543f
+
+2020-05-30 22:54:54.412 [           main] - [INFO] [DefaultSecurityFilterChain.java         :   43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7282af25, org.springframework.security.web.context.SecurityContextPersistenceFilter@26a4f9ed, org.springframework.security.web.header.HeaderWriterFilter@37b01ce2, org.springframework.security.web.csrf.CsrfFilter@21d9cd04, org.springframework.security.web.authentication.logout.LogoutFilter@7ab63838, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2094bf3d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d7f8467, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7661e474, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6eda012b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45287377, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f5c30b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20ffb8d5, org.springframework.security.web.session.SessionManagementFilter@1894fa9f, org.springframework.security.web.access.ExceptionTranslationFilter@11826398, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54489296]
+2020-05-30 22:54:54.423 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 22:54:54.449 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 22:54:54.483 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 22:54:54.485 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 22:54:54.506 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 22:54:54.535 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 22:54:54.686 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 22:54:54.686 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 22:54:54.699 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.684 seconds (JVM running for 4.187)
+2020-05-30 22:55:15.251 [nio-8080-exec-1] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 22:55:15.251 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 22:55:15.259 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 8 ms
+2020-05-30 23:04:19.625 [io-8080-exec-13] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:09:54.911 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:09:54.925 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 23:09:54.927 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 23:09:54.927 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 23:09:54.927 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:09:54.927 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 23:09:54.947 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:09:54.949 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 23:09:54.959 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 23:10:02.082 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78401 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 23:10:02.084 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 23:10:02.767 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 23:10:02.769 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 23:10:02.790 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-05-30 23:10:03.268 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 23:10:03.276 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:10:03.276 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 23:10:03.277 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 23:10:03.355 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 23:10:03.355 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1235 ms
+2020-05-30 23:10:03.470 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 23:10:03.723 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 23:10:04.073 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 23:10:04.153 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:10:04.530 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 23:10:04.571 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 23:10:04.579 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 23:10:04.579 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 23:10:04.580 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 23:10:04.581 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 23:10:04.581 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 23:10:04.581 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 23:10:04.582 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@756808cc
+2020-05-30 23:10:04.641 [           main] - [INFO] [UserDetailsServiceAutoConfiguration.java:   86] - 
+
+Using generated security password: ebc1781d-e302-4077-98ef-1d27a4bf2f47
+
+2020-05-30 23:10:04.735 [           main] - [INFO] [DefaultSecurityFilterChain.java         :   43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e48462d, org.springframework.security.web.context.SecurityContextPersistenceFilter@120df990, org.springframework.security.web.header.HeaderWriterFilter@23ad2d17, org.springframework.security.web.csrf.CsrfFilter@5463f035, org.springframework.security.web.authentication.logout.LogoutFilter@2b7facc7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4662752a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@409732fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@17216605, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@159ac15f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@282c4da0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f96dd64, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10a907ec, org.springframework.security.web.session.SessionManagementFilter@25f0c5e7, org.springframework.security.web.access.ExceptionTranslationFilter@207dd1b7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f213a2]
+2020-05-30 23:10:04.744 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 23:10:04.770 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:10:04.806 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 23:10:04.808 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 23:10:04.821 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 23:10:04.846 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 23:10:04.958 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 23:10:04.959 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 23:10:04.973 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.319 seconds (JVM running for 4.257)
+2020-05-30 23:10:16.281 [nio-8080-exec-1] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 23:10:16.281 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 23:10:16.288 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 7 ms
+2020-05-30 23:10:21.303 [nio-8080-exec-4] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:12:27.813 [io-8080-exec-29] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:13:46.223 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:13:46.239 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 23:13:46.240 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 23:13:46.240 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 23:13:46.240 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:13:46.240 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 23:13:46.255 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:13:46.256 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 23:13:46.261 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 23:13:51.183 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78413 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 23:13:51.187 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 23:13:51.984 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 23:13:51.986 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 23:13:52.011 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-05-30 23:13:52.567 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 23:13:52.577 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:13:52.578 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 23:13:52.578 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 23:13:52.649 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 23:13:52.650 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1417 ms
+2020-05-30 23:13:52.785 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 23:13:53.085 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 23:13:53.464 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 23:13:53.551 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:13:53.991 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 23:13:54.035 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 23:13:54.045 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 23:13:54.045 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 23:13:54.046 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 23:13:54.047 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 23:13:54.047 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 23:13:54.047 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 23:13:54.047 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1efcba00
+2020-05-30 23:13:54.114 [           main] - [INFO] [UserDetailsServiceAutoConfiguration.java:   86] - 
+
+Using generated security password: 7e66ccba-65c0-4b7e-8330-b97301ad45a2
+
+2020-05-30 23:13:54.211 [           main] - [INFO] [DefaultSecurityFilterChain.java         :   43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@632b5c79, org.springframework.security.web.context.SecurityContextPersistenceFilter@391dfe7c, org.springframework.security.web.header.HeaderWriterFilter@76e9eed8, org.springframework.security.web.csrf.CsrfFilter@d180961, org.springframework.security.web.authentication.logout.LogoutFilter@20a946d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@628bd77e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4627dfda, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6a552721, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@362cf66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d3bcd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ebc5be6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3815a7d1, org.springframework.security.web.session.SessionManagementFilter@474619d9, org.springframework.security.web.access.ExceptionTranslationFilter@774013dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bd2430f]
+2020-05-30 23:13:54.222 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 23:13:54.252 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:13:54.291 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 23:13:54.292 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 23:13:54.311 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 23:13:54.364 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 23:13:54.503 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 23:13:54.503 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 23:13:54.516 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.929 seconds (JVM running for 5.072)
+2020-05-30 23:14:01.539 [nio-8080-exec-1] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 23:14:01.540 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 23:14:01.548 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 8 ms
+2020-05-30 23:15:04.206 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:15:04.223 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 23:15:04.224 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 23:15:04.224 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 23:15:04.224 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:15:04.224 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 23:15:04.237 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:15:04.239 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 23:15:04.245 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 23:15:10.633 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78424 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 23:15:10.638 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 23:15:11.431 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 23:15:11.433 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 23:15:11.456 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-05-30 23:15:11.965 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 23:15:11.974 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:15:11.974 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 23:15:11.975 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 23:15:12.064 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 23:15:12.064 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1371 ms
+2020-05-30 23:15:12.189 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 23:15:12.455 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 23:15:12.831 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 23:15:12.915 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:15:13.342 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 23:15:13.386 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 23:15:13.397 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 23:15:13.397 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 23:15:13.398 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 23:15:13.399 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 23:15:13.399 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 23:15:13.399 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 23:15:13.399 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6d31f14
+2020-05-30 23:15:13.408 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 23:15:13.435 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:15:13.471 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 23:15:13.472 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 23:15:13.489 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 23:15:13.541 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 23:15:13.701 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 23:15:13.701 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 23:15:13.713 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.632 seconds (JVM running for 4.237)
+2020-05-30 23:15:21.315 [nio-8080-exec-1] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 23:15:21.315 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 23:15:21.321 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 6 ms
+2020-05-30 23:15:26.541 [io-8080-exec-20] - [DEBUG] [BaseJdbcLogger.java                     :  143] - ==>  Preparing: select * from tb_user; 
+2020-05-30 23:15:26.562 [io-8080-exec-20] - [DEBUG] [BaseJdbcLogger.java                     :  143] - ==> Parameters: 
+2020-05-30 23:15:26.591 [io-8080-exec-20] - [DEBUG] [BaseJdbcLogger.java                     :  143] - <==      Total: 2
+2020-05-30 23:15:34.269 [io-8080-exec-22] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:16:01.863 [io-8080-exec-23] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:16:28.725 [io-8080-exec-29] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:16:52.223 [nio-8080-exec-1] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-30 23:17:17.162 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:17:17.176 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 23:17:17.177 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 23:17:17.177 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 23:17:17.177 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:17:17.177 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 23:17:17.190 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:17:17.191 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 23:17:17.196 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 23:17:21.407 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78436 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 23:17:21.410 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 23:17:22.161 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 23:17:22.162 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 23:17:22.185 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-05-30 23:17:22.692 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 23:17:22.702 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:17:22.703 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 23:17:22.703 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 23:17:22.784 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 23:17:22.784 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1335 ms
+2020-05-30 23:17:22.929 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 23:17:23.200 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 23:17:23.585 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 23:17:23.675 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:17:24.124 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 23:17:24.167 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 23:17:24.177 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 23:17:24.177 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 23:17:24.178 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 23:17:24.179 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 23:17:24.179 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 23:17:24.179 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 23:17:24.180 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@459d2ee6
+2020-05-30 23:17:24.189 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 23:17:24.218 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:17:24.257 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 23:17:24.259 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 23:17:24.297 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 23:17:24.326 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 23:17:24.476 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 23:17:24.477 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 23:17:24.488 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.613 seconds (JVM running for 4.263)
+2020-05-30 23:17:28.984 [nio-8080-exec-2] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 23:17:28.984 [nio-8080-exec-2] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 23:17:28.990 [nio-8080-exec-2] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 6 ms
+2020-05-30 23:17:29.045 [nio-8080-exec-2] - [DEBUG] [BaseJdbcLogger.java                     :  143] - ==>  Preparing: select * from tb_user; 
+2020-05-30 23:17:29.069 [nio-8080-exec-2] - [DEBUG] [BaseJdbcLogger.java                     :  143] - ==> Parameters: 
+2020-05-30 23:17:29.091 [nio-8080-exec-2] - [DEBUG] [BaseJdbcLogger.java                     :  143] - <==      Total: 2
+2020-05-30 23:17:39.727 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:17:39.743 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'taskScheduler'
+2020-05-30 23:17:39.744 [extShutdownHook] - [INFO] [SchedulerFactoryBean.java               :  845] - Shutting down Quartz Scheduler
+2020-05-30 23:17:39.745 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-30 23:17:39.745 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-30 23:17:39.745 [extShutdownHook] - [INFO] [QuartzScheduler.java                    :  740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-30 23:17:39.760 [extShutdownHook] - [INFO] [ExecutorConfigurationSupport.java       :  218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:17:39.761 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 1948] - {dataSource-1} closing ...
+2020-05-30 23:17:39.767 [extShutdownHook] - [INFO] [DruidDataSource.java                    : 2020] - {dataSource-1} closed
+2020-05-30 23:17:43.891 [           main] - [INFO] [StartupInfoLogger.java                  :   55] - Starting LuckydbApplication on daibindeMacBook-Pro.local with PID 78460 (/Users/daibin/workspace/idea/luckydb/target/classes started by daibin in /Users/daibin/workspace/idea/luckydb)
+2020-05-30 23:17:43.895 [           main] - [INFO] [SpringApplication.java                  :  655] - The following profiles are active: test
+2020-05-30 23:17:44.734 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-30 23:17:44.737 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-30 23:17:44.765 [           main] - [INFO] [RepositoryConfigurationDelegate.java    :  187] - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-05-30 23:17:45.355 [           main] - [INFO] [TomcatWebServer.java                    :  108] - Tomcat initialized with port(s): 8080 (http)
+2020-05-30 23:17:45.364 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:17:45.365 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting service [Tomcat]
+2020-05-30 23:17:45.365 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-05-30 23:17:45.449 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring embedded WebApplicationContext
+2020-05-30 23:17:45.450 [           main] - [INFO] [ServletWebServerApplicationContext.java :  284] - Root WebApplicationContext: initialization completed in 1501 ms
+2020-05-30 23:17:45.584 [           main] - [INFO] [DruidDataSourceAutoConfigure.java       :   56] - Init DruidDataSource
+2020-05-30 23:17:45.871 [           main] - [INFO] [DruidDataSource.java                    : 1003] - {dataSource-1} inited
+2020-05-30 23:17:46.275 [           main] - [INFO] [SourcedRequestMappingHandlerMapping.java:   69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-30 23:17:46.371 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-30 23:17:46.809 [           main] - [WARN] [FreeMarkerAutoConfiguration.java        :   67] - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-05-30 23:17:46.846 [           main] - [INFO] [StdSchedulerFactory.java                : 1220] - Using default implementation for ThreadExecutor
+2020-05-30 23:17:46.854 [           main] - [INFO] [SchedulerSignalerImpl.java              :   61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-30 23:17:46.855 [           main] - [INFO] [QuartzScheduler.java                    :  229] - Quartz Scheduler v.2.3.2 created.
+2020-05-30 23:17:46.856 [           main] - [INFO] [RAMJobStore.java                        :  155] - RAMJobStore initialized.
+2020-05-30 23:17:46.856 [           main] - [INFO] [QuartzScheduler.java                    :  294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-30 23:17:46.856 [           main] - [INFO] [StdSchedulerFactory.java                : 1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-30 23:17:46.857 [           main] - [INFO] [StdSchedulerFactory.java                : 1378] - Quartz scheduler version: 2.3.2
+2020-05-30 23:17:46.857 [           main] - [INFO] [QuartzScheduler.java                    : 2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ad112de
+2020-05-30 23:17:46.864 [           main] - [INFO] [ExecutorConfigurationSupport.java       :  181] - Initializing ExecutorService 'taskScheduler'
+2020-05-30 23:17:46.889 [           main] - [INFO] [DirectJDKLog.java                       :  173] - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-30 23:17:46.923 [           main] - [INFO] [TomcatWebServer.java                    :  220] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-30 23:17:46.924 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  160] - Context refreshed
+2020-05-30 23:17:46.939 [           main] - [INFO] [DocumentationPluginsBootstrapper.java   :  163] - Found 1 custom documentation plugin(s)
+2020-05-30 23:17:46.966 [           main] - [INFO] [ApiListingReferenceScanner.java         :   41] - Scanning for api listing references
+2020-05-30 23:17:47.112 [           main] - [INFO] [SchedulerFactoryBean.java               :  727] - Starting Quartz Scheduler now
+2020-05-30 23:17:47.113 [           main] - [INFO] [QuartzScheduler.java                    :  547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-30 23:17:47.126 [           main] - [INFO] [StartupInfoLogger.java                  :   61] - Started LuckydbApplication in 3.763 seconds (JVM running for 4.341)
+2020-05-30 23:17:51.080 [nio-8080-exec-1] - [INFO] [DirectJDKLog.java                       :  173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-30 23:17:51.080 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  525] - Initializing Servlet 'dispatcherServlet'
+2020-05-30 23:17:51.090 [nio-8080-exec-1] - [INFO] [FrameworkServlet.java                   :  547] - Completed initialization in 10 ms
+2020-05-30 23:17:51.111 [nio-8080-exec-1] - [WARN] [AbstractHandlerExceptionResolver.java   :  199] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

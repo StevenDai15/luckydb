@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luckydb.dao.UserDao">
+    <resultMap id="BaseResultMap" type="com.luckydb.model.entity.UserEntity">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="user_id" jdbcType="VARCHAR" property="userId" />
+        <result column="user_name" jdbcType="VARCHAR" property="userName" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="id_no" jdbcType="VARCHAR" property="idNo" />
+        <result column="birthday" jdbcType="DATE" property="birthday" />
+        <result column="sex" jdbcType="VARCHAR" property="sex" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="nation" jdbcType="VARCHAR" property="nation" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+        <result column="address" jdbcType="VARCHAR" property="address" />
+        <result column="user_type" jdbcType="INTEGER" property="userType" />
+        <result column="status" jdbcType="INTEGER" property="status" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    </resultMap>
+
+    <select id="getUserlist" resultMap="BaseResultMap">
+        select * from tb_user;
+    </select>
+    <select id="getUserByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select * from tb_user where user_id = #{userId};
+    </select>
+
+</mapper>
